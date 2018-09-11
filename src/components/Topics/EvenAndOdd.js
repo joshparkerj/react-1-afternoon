@@ -38,10 +38,13 @@ class EvenAndOdd extends Component {
                updateUserInput={this.updateUserInput}
                buttonText="Split"
                solveToyProblem={this.solveToyProblem}
+               spanClass1="resultsBox"
                resultLabel1="Evens: "
                result1={this.state.evenArray}
+               spanClass2="resultsBox"
                resultLabel2="Odds: "
-               result2={this.state.oddArray} />
+               result2={this.state.oddArray}
+               input2="hidden" />
       </div>
     )
   }
